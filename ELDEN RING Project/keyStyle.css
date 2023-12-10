@@ -1,0 +1,190 @@
+*
+{
+    font-family: monospace;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    
+}
+.navUL {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.navIMG {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+   scale: 0.9;
+}
+.navIMG:hover
+{
+    scale: 1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.navLI {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: rgb(255,255,255);
+
+}
+header
+{
+    background-color: black;
+    padding-top: 20px;
+    margin: 0px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navLI:last-child
+{
+    margin-left: auto;
+}
+.navLI:hover
+{
+    color: #c19d53;;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.fa-search:hover
+{
+    color: #c19d53;;
+    transition: 0.5s ease-in-out;
+}
+a
+{
+    text-decoration: none;
+}
+.sec1,.sec3
+{
+    display: flex;
+  
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 1em;
+  margin-bottom:60px;
+
+}
+main
+{
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(hoarah-loux-elden-ring-2022-games-pc-games-playstation-4-3840x2160-7522.jpg);
+}
+
+.ul1,h1,.ul2,.ul3
+{
+    color:rgb(255,255,255) ;
+    list-style: none;
+    max-width: 640px; 
+}
+.LI1,.li2,.li3
+{
+    font-size: 16PX;
+    line-height: 30px;
+}
+
+img
+{
+   width:600px;
+}
+
+/* .for-before::before{
+    content:"A new fanatasy world";
+  position: fixed;
+    width: 200px;
+    padding: .4em;
+    height: 20px;
+    color: white;
+    right: 80%;
+    top: 200px;
+    font-weight: 900;
+    background-color: #c19d53;
+} */
+h1
+{
+   text-align: center;   
+  font-size: 2.8em;
+}
+.sec2
+{
+    display: flex;
+   justify-content: center;
+   gap: 1em;
+   margin-bottom:60px;
+}
+.current
+{
+    border-bottom: #c19d53 3px solid;
+    padding: 3px;
+}
+body::-webkit-scrollbar {
+    width: 12px; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #c19d53; 
+    border-radius: 10px; 
+}
+
+body::-webkit-scrollbar-track {
+    background-color: black; 
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navUL {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navIMG {
+        width: 80%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .navLI {
+        margin-top: 5px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .navLI:last-child {
+        margin-left: 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .sec1,
+    .sec3,
+    .sec2 {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    img {
+        width: 100%; 
+    }
+}

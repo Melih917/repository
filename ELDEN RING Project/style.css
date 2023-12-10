@@ -1,0 +1,369 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    box-sizing: border-box;
+    background-color: black ;
+    
+}
+
+.navUL {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; 
+    gap: 20px; 
+    padding: 20px; 
+    margin: 0px;
+
+}
+
+.navIMG {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    scale: 0.9;
+}
+.navIMG:hover
+{
+    scale: 1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.navLI {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: rgb(255,255,255);
+
+}
+header
+{
+    background-color: black;
+    padding-top: 20px;
+    margin: 0px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navLI:last-child
+{
+    margin-left: auto;
+}
+.navLI:hover
+{
+    color: #c19d53;;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.fa-search:hover
+{
+    color: #c19d53;;
+    transition: 0.5s ease-in-out;
+}
+
+.mainLogo
+{
+    max-width:800px;
+    max-height: 262px;
+    display: block;
+   
+}
+main
+{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    background-image: url(3qubh1oyqqj71.jpg);
+    background-size: cover;
+    background-position: center; 
+    width: 100%; 
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 0;
+    overflow: hidden; 
+   
+
+
+}
+h1
+{
+    text-align: center;
+    font-size: 45px;
+    line-height: 48px;
+    color: rgb(255,255,255);
+    font-weight: bolder;
+    margin: 0 auto;
+  
+}
+.mainUL
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color:rgb(255,255,255); 
+    gap:10px    
+}
+span
+{
+    color: #c19d53;;
+}
+h4
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 48px;
+    color:rgb(255,255,255); 
+
+}
+p
+{
+    color: rgb(255, 255, 255);
+   
+    letter-spacing: 0.5px; 
+    font-size: 16px; 
+    margin-bottom: 10px; 
+    margin-left: 10px;
+    font-weight: 700;
+    width: 70%;
+    
+   
+}
+video
+{
+    width: 900px;
+    padding-right: 30px;
+}
+.mainSection
+{
+    display: flex;
+    gap:20px;
+    padding-top: 50px;
+    
+}
+.awordsIMG
+{
+    width: 500px;
+    margin-right: 1200px;
+}
+.pcConsoleUL
+{
+       
+       display: flex;
+           
+     list-style: none;
+     gap: 30px;
+}
+a
+{
+    text-decoration: none;
+}
+.pcConsoleItems
+{
+    color:rgb(255, 255, 255);
+     border: 1px solid ;
+     padding: 10px;
+     font-size: 20px;   
+}
+.pcConsoleItems:hover
+{
+    cursor: pointer;
+    border-color: #c19d53;
+}
+.buy
+{
+    color:rgb(255,255,255) ;
+     font-size: 70px;
+     text-align: center;
+}
+.awordsIMG2
+{
+    margin-top: 4em;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+
+
+.minRequ,
+.recRequ {
+    color: rgb(255, 255, 255);
+    border: 1px solid #c19d53;
+    padding: 20px;
+    margin: 10px;
+    
+   
+}
+
+.sysR {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.minRequ li,
+.recRequ li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.sustem
+{
+    gap: 1EM;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.footerUL
+{
+    display: flex;
+    list-style: none;   
+    justify-content: center;
+    gap: 20px;
+    color: aliceblue;
+    font-size: 1em;
+}
+.footerUL:first-child
+{
+    margin-right: auto;
+    
+}
+footer
+{
+    background-color: black;
+    padding: 2em;
+}
+.current
+{
+    border-bottom: #c19d53 3px solid;
+    padding: 3px;
+}
+body::-webkit-scrollbar {
+    width: 12px; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #c19d53; 
+    border-radius: 10px; 
+}
+
+body::-webkit-scrollbar-track {
+    background-color: black; 
+}
+
+
+@media screen and (max-width: 600px) {
+    .navIMG {
+        width: 100%;
+        max-width: 150px;
+        scale: 0.9;
+    }
+
+    .navUL {
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .navLI {
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .mainUL {
+        font-size: 0.8rem;
+    }
+
+    .mainSection {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-top: 20px;
+    }
+    .mainLogo
+    {
+        width: 100%;
+    }
+
+    video {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .awordsIMG {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .buy {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .awordsIMG2 {
+        margin-top: 2em;
+    }
+
+    .minRequ,
+    .recRequ {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .sysR {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+    body {
+        font-size: 14px; 
+    }
+
+    h1 {
+        font-size: 1.5rem; 
+        line-height: 1.6rem;
+        text-align: center;
+    
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    video {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    footer {
+        padding: 5px;
+    }
+
+    .footerUL {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerUL li {
+        margin-top: 5px;
+    }
+    .pcConsoleUL
+    {
+       flex-wrap: wrap;
+    }
+    .p1
+    {
+        text-align: center;
+        margin-left: 50px;
+
+    }
+   
+}
+
